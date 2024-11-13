@@ -1,0 +1,447 @@
+body {
+    padding: 2px;
+    margin: 0;
+    flex-wrap: wrap;
+    background-color: #171717;
+    color: white;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+.navbar {
+    font-family: "Orbitron", sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    font-style: normal;
+    padding-left: 15px;
+    padding-right: 17px;
+    justify-content: space-between;
+    display: flex;
+    padding: 0px;
+    background-color: #171717;
+
+}
+
+.navdiv {
+    display: inline-block;
+    align-items: center;
+
+
+}
+
+
+
+
+.navbar a {
+    color: #ecf0f1;
+    text-decoration: none;
+    padding: 10px;
+
+}
+
+
+.img2 {
+    font-family: "Orbitron", sans-serif;
+    width: 20px;
+    height: 20px;
+}
+
+.logo .on1 {
+    margin-left: 5px;
+    margin-top: 2px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+.logo {
+
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    color: white;
+    margin-left: 20px;
+
+}
+
+li {
+    list-style: none;
+    justify-content: space-between;
+    display: inline-block;
+    flex-direction: column;
+    align-items: end;
+    margin: 0px;
+}
+
+
+li a {
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 6px;
+}
+
+.button {
+    background-color: #2e2e2e;
+    margin-right: 10px;
+    border-radius: 30px;
+    padding: 10px;
+    width: 90px;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+.button .a {
+    color: #2e2e2e;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.container {
+    font-family: "Orbitron", sans-serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    justify-items: center;
+    align-content: center;
+}
+
+.img {
+
+    width: 1220px;
+    padding: 32px;
+
+}
+
+.mono {
+    font-family: "Orbitron", sans-serif;
+    font-size: 10px;
+}
+
+.center {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.conimg {
+
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* h1 {
+
+    font-size: 100px;
+    font-weight: bold;
+} */
+
+pre {
+
+    font-weight: bold;
+    font-family: "Orbitron", sans-serif;
+    font-size: 20px;
+}
+
+.bg {
+
+    padding-right: 10px;
+}
+
+.bgimg {
+    font-family: "Orbitron", sans-serif;
+    width: 99%;
+    display: flex;
+    margin: 0px auto;
+    padding: 10px;
+}
+
+.text {
+
+    align-items: center;
+    background-color: #222222;
+    width: 685px;
+    height: 450px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+
+.vsks {
+
+
+    position: relative;
+    font-family: "Inconsolata", monospace;
+
+    left: 57%;
+    transform: translate(-56%, -56%);
+    font-size: small;
+    font-weight: bold;
+}
+
+.txt {
+    padding-top: 30%;
+    font-weight: bolder;
+    position: relative;
+    top: 15%;
+    left: 57%;
+    transform: translate(-50%, -50%);
+    font-size: 43px;
+}
+
+.card {
+    margin-left: 15px;
+    width: 592px;
+    border-radius: 10px;
+    background-color: #222222;
+    color: white;
+
+}
+
+.card>img {
+    width: 592px;
+}
+
+.con {
+    padding-left: 20px;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+
+}
+
+.p {
+    font-family: "Inconsolata", monospace;
+    font-size: 20px;
+    font-weight: normal;
+
+}
+
+h2 {
+    font-family: "Orbitron", sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+
+}
+
+.smth {
+    font-family: "Inconsolata", monospace;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 32px;
+    color: white;
+    margin-left: 30px;
+    background-color: #eb5855;
+    width: 234px;
+    height: 56px;
+    border-radius: 61px;
+    border: none;
+    padding: 2px;
+}
+
+.b2 {
+    background-color: #eb5855;
+    color: white;
+    font-size: bold;
+    font-weight: bold;
+    font-family: "Inconsolata", monospace;
+    border: none;
+    border-radius: 61px;
+    height: 56px;
+    width: 244px;
+
+}
+
+.snth {
+    font-weight: bold;
+    font-family: "Inconsolata", monospace;
+    font-size: 20px;
+    margin-bottom: 32px;
+    color: white;
+    margin-left: 30px;
+    background-color: #eb5855;
+    width: 144px;
+    height: 56px;
+    border-radius: 61px;
+    border: none;
+    padding: 2px;
+}
+
+.card2 {
+    align-items: center;
+    margin-left: 15px;
+    border-radius: 10px;
+    width: 615px;
+    background-color: #222222;
+    color: white;
+}
+
+.card2 img {
+    width: 615px;
+}
+
+.just {
+    display: flex;
+}
+
+.just1 {
+
+    display: flex;
+}
+
+.card1 {
+    align-items: center;
+    margin-left: 15px;
+    border-radius: 10px;
+    width: 592px;
+    background-color: #222222;
+    color: white;
+}
+
+.card1>img {
+
+    width: 592px;
+}
+
+.con1 {
+    padding-left: 32px;
+    align-items: center;
+}
+
+.p1 {
+
+    font-family: "Inconsolata", monospace;
+    font-size: 20px;
+    font-weight: normal;
+    padding-bottom: 20px;
+
+}
+
+.card21 {
+    margin-top: 20px;
+    align-items: center;
+    margin-left: 15px;
+    border-radius: 10px;
+    width: 615px;
+    background-color: #222222;
+    color: white;
+    height: 650px;
+}
+
+.card21>img {
+    width: 615px;
+}
+
+.con21 {
+    padding-left: 32px;
+    align-items: center;
+}
+
+.mainconfig {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar {
+    text-align: center;
+    margin-right: 10px;
+    align-items: center;
+    border-radius: 10px;
+    width: 400px;
+    background-color: #222222;
+    color: white;
+}
+
+.ptext{
+    margin-right: 25px;
+   
+}
+
+h1 {
+    gap: 32px;
+    margin-left: 50px;
+    font-size: 100px;
+    font-weight: 320%;
+    font-family: "Orbitron", sans-serif;
+}
+
+p {
+    font-family: "Inconsolata", monospace;
+    font-size: 20px;
+    font-weight: normal;
+    padding-left: 5px;
+}
+
+.btn {
+    font-weight: bold;
+    font-family: "Inconsolata", monospace;
+    font-size: 20px;
+    width: 331px;
+    height: 56px;
+    margin: 50px;
+    border-radius: 61px;
+    border: none;
+    background-color: #eb5855;
+    color: white
+}
+
+h3 {
+    gap: 32px;
+    margin-left: 50px;
+    font-size: 50px;
+    font-weight: 320%;
+    font-family: "Orbitron", sans-serif;
+}
+
+h4 {
+    padding-top: 30px;
+    font-size: 60px;
+}
+
+.footer {
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Inconsolata", monospace;
+    display: flex;
+    justify-content: space-between;
+}
+.footer1 {
+    margin-left: 20px;
+}
+
+.footer2 {
+  margin-right: 880px;
+}
+
+.terms {
+    margin-right: 20px;
+}
+
+.footer3 {
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+.footersub {
+    margin-top: 32px;
+}
+
+.footerimg {
+    width: 20px;
+    margin-right: 40px;
+}
+
+.footersub {
+    display: flex;
+    justify-content: space-between;
+}
